@@ -1,0 +1,9 @@
+streamlit
+requests
+beautifulsoup4
+pandas
+numpy
+matplotlib
+highlight_text
+plotly
+pymongo
