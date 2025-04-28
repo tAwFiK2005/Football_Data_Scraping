@@ -8,3 +8,4 @@ highlight-text
 plotly
 pymongo
 openpyxl
+uv
