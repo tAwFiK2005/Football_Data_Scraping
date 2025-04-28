@@ -71,7 +71,8 @@ def get_fixtures(team, year):
         else:
             opponents.append(home_team)
     return opponents
-
+    
+@st.cache_data
 def load_all_understat_data(team1, year1):
     if not team1 or not year1:
         return None
