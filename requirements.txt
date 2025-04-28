@@ -2,7 +2,7 @@ streamlit
 requests
 beautifulsoup4
 pandas
-numpy
+numpy<2
 matplotlib==3.7.1
 highlight-text
 plotly==5.15.0
