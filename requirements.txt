@@ -8,4 +8,3 @@ highlight-text
 plotly==5.15.0
 pymongo
 openpyxl
-uv
