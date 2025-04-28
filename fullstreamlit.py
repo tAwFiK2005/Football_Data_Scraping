@@ -193,14 +193,13 @@ if mode == "Compare Two Teams (Any Year)":
                 f"{team1} ({year1})": df1[metric],
                 f"{team2} ({year2})": df2[metric]
             })
-
-            comparison_df.plot(kind='bar', figsize=(10, 6))
-            plt.title(f"{data_type.title()} - {metric} Comparison")
-            plt.xlabel("Category")
-            plt.ylabel(metric)
-            plt.xticks(rotation=45)
-            plt.tight_layout()
-            st.pyplot(plt)
+            fig, ax = plt.subplots(figsize=(10, 6))
+            comparison_df.plot(kind='bar', ax = ax)
+            ax.title(f"{data_type.title()} - {metric} Comparison")
+            ax.xlabel("Category")
+            ax.ylabel(metric)
+            ax.tick_params(axis='x', rotation=45)
+            st.pyplot(fig)
     else:
         st.warning("Please enter valid teams and years to compare data.")
 elif mode =="Compare One Team Across Years":
@@ -252,16 +251,15 @@ elif mode =="Compare One Team Across Years":
             # Create bar chart
             comparison_df = pd.DataFrame({
                 f"{team1} ({year1})": df1[metric],
-                f"{team1} ({year2})": df2[metric]
+                f"{team2} ({year2})": df2[metric]
             })
-
-            comparison_df.plot(kind='bar', figsize=(10, 6))
-            plt.title(f"{data_type.title()} - {metric} Comparison")
-            plt.xlabel("Category")
-            plt.ylabel(metric)
-            plt.xticks(rotation=45)
-            plt.tight_layout()
-            st.pyplot(plt)
+            fig, ax = plt.subplots(figsize=(10, 6))
+            comparison_df.plot(kind='bar', ax = ax)
+            ax.title(f"{data_type.title()} - {metric} Comparison")
+            ax.xlabel("Category")
+            ax.ylabel(metric)
+            ax.tick_params(axis='x', rotation=45)
+            st.pyplot(fig)
     else:
         st.warning("Please enter valid team and years to compare data.")
 else:
