@@ -56,7 +56,7 @@ streamlit run fullstreamlit.py
 ## 🛠️ How It Works
 
 - Choose a team and season from the dropdowns.
-- The app scrapes or loads pre-saved data from `TeamsNameUnderstats.txt`.
+- The app scrapes `TeamsNameUnderstats.txt`.
 - Team and league options are loaded from `teams_leagues.xlsx`.
 - Visuals and data insights are displayed in real-time using Streamlit.
 
@@ -68,7 +68,7 @@ streamlit run fullstreamlit.py
   Simply edit the `teams_leagues.xlsx` file — no code changes needed.
 
 - **Optimize speed**:  
-  Use `TeamsNameUnderstats.txt` to avoid repeated web scraping.
+  Use `TeamsNameUnderstats.txt` to avoid needing to insert new teams in `teams_leagues.xlsx` .
 
 ---
 
@@ -76,7 +76,7 @@ streamlit run fullstreamlit.py
 
 *(You can insert a screenshot here if you have one)*  
 <!-- ![App Preview](https://footballdatascrapingunderstat.streamlit.app/_static/screenshot.png) -->
-
+![image](https://github.com/user-attachments/assets/51b1edcc-9dea-4d1e-8395-8f32d867d617)
 ---
 
 ## 📄 License
