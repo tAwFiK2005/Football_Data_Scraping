@@ -179,7 +179,7 @@ if mode == "Compare Two Teams (Any Year)":
             st.markdown(f"### {team1} {year1} - {data_type.title()} Data")
             st.dataframe(df1)
 
-            st.markdown(f"### {team1} {year2} - {data_type.title()} Data")
+            st.markdown(f"### {team2} {year2} - {data_type.title()} Data")
             st.dataframe(df2)
         save_to_mongo(df1, data_type, team1, year1)
         save_to_mongo(df2, data_type, team2, year2)
