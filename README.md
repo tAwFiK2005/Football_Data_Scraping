@@ -76,7 +76,7 @@ streamlit run fullstreamlit.py
 
 *(You can insert a screenshot here if you have one)*  
 <!-- ![App Preview](https://footballdatascrapingunderstat.streamlit.app/_static/screenshot.png) -->
-![image](https://github.com/user-attachments/assets/94aed5aa-e766-45fb-a19b-caa625af3604)
+![image](https://github.com/user-attachments/assets/1b4442c1-1c9f-4191-8789-96fec1fa2aba)
 ---
 
 ## 📄 License
