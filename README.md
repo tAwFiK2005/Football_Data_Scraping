@@ -78,6 +78,14 @@ streamlit run fullstreamlit.py
 ![image](https://github.com/user-attachments/assets/1b4442c1-1c9f-4191-8789-96fec1fa2aba)
 ---
 
+## 👥Collaborators
+- **[@tAwFiK2005](https://github.com/tAwFiK2005)**  
+- **[@ahmedayman2825](https://github.com/ahmedayman2825)**
+- **[@ashrafeesa](https://github.com/ashrafeesa)** 
+- **[@ahmedabdalwahab](https://github.com/ahmedabdalwahab)** 
+- **[@AhmedZamel09](https://github.com/AhmedZamel09)**
+
+---
 ## 📄 License
 
 This project is for educational and non-commercial purposes.  
